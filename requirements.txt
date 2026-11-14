@@ -1,0 +1,19 @@
+# Smiling-lemon - библиотеки для запуска на Windows
+# Устанавливаются автоматически через START_WINDOWS.bat
+
+aiogram>=3.13,<4
+SQLAlchemy>=2.0.30,<2.1
+aiosqlite>=0.20
+redis>=5.0
+taskiq-redis>=1.0
+openai>=1.50,<2
+playwright>=1.45
+pydantic>=2.7,<3
+pydantic-settings>=2.4
+PyYAML>=6.0
+httpx>=0.27
+
+# НЕ НУЖНЫ на домашнем компьютере (только для VPS / PostgreSQL / вебхуков):
+# asyncpg==0.30.0
+# fastapi>=0.110
+# uvicorn[standard]>=0.30

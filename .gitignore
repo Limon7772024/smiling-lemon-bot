@@ -1,0 +1,18 @@
+# НІКОЛИ не завантажуйте секретні ключі (.env) на GitHub!
+.env
+.env.*
+!.env.example
+
+# Віртуальні оточення та кеш
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Локальна база даних та приклади картинок
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+samples/
